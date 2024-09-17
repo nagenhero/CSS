@@ -1,0 +1,27 @@
+div{
+    background-color: red;
+    width:50px;
+    height:150px;
+    margin:10px;
+    flex-grow: 1;
+}
+.parent{
+    background-color: blue;
+    height:200px;
+    width:auto;
+    display:flex;
+    align-items: center;/*  vertical axix */
+    /* justify-content:column;  */
+    justify-content: center; /*--- just in the center---/
+    /* justify comes in horizonatl */
+    
+    
+}
+.flex1
+{
+    order:1;
+    /* flex-shrink: 0; */
+}
+.flex2{
+    order:2;
+}
